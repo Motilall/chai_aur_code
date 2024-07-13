@@ -14,7 +14,7 @@ let b = "red_pearl";
 
 // ++++++++++++++++++++ Activity 2 ++++++++++++++++++++++++++++++
 
-// task 1
+// task 3
 const c = true;
 //console.log(c);
 
@@ -26,7 +26,7 @@ const c = true;
 
 // +++++++++++++++++++ Activity 3 +++++++++++++++++++++++++++++++++
 
-// task 1
+// task 4
 let d = 12;
 let e = "red";
 let f = true;
@@ -36,8 +36,35 @@ const person = {
 };
 let arr = [1,2,3,4,5];
 
-console.log(typeof(d));
-console.log(typeof(e));
-console.log(typeof(f));
-console.log(typeof(person));
-console.log(typeof(arr));
+// console.log(typeof(d));
+// console.log(typeof(e));
+// console.log(typeof(f));
+// console.log(typeof(person));
+// console.log(typeof(arr));// it will return as object by default because javascript doesnt have type of array
+// console.log(Array.isArray(arr))// to check is array or not (true)
+
+
+
+
+
+
+// ++++++++++++++++++++++ Activity 4 +++++++++++++++++++++++++
+
+// task 5
+let x = 12;
+// console.log(x);
+x = 15;
+// console.log(x);
+
+
+
+
+
+
+// ++++++++++++++++++++++ Activity 5 ++++++++++++++++++++++++++++
+
+// task 6
+const z = 12;
+console.log(z);
+z = 15;
+console.log(z);// error  is giving "Assingnment to constant vaiable"
