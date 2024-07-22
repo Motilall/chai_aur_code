@@ -114,3 +114,48 @@
 
 // // Example usage:
 // console.log(greet());
+
+
+// function greet(name, age = 18){
+//     if(typeof name !== 'string' || typeof age !== 'number'){
+//         return "Invalid input, Please enter a valid input"
+//     }else{
+//         return `Hello ${name} you are ${age} years old.`;
+//     }
+// }
+// let name = "Red";
+// let age = 18;
+// let message = greet(name,age);
+// console.log(message);
+
+
+
+
+
+// ++++++++++++++++++++++++++ Activity 5 ++++++++++++++++++++++++++
+
+// task 9 
+function times(number, text){
+    for(let i = 0; i < number; i++){
+        console.log(text);
+    }
+}
+let number = 5;
+let text = "hello";
+times(number,text);
+
+
+
+
+function callFunctionXTimes(func, time){
+    for(let j = 0; j <= time; j++){
+        func(j);
+    }
+}
+let sayHello = (itreation) => {
+    console.log(`hello! this is call number ${itreation}.`);
+}
+callFunctionXTimes(sayHello, 4);
+
+// task 10
+
